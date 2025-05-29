@@ -497,7 +497,7 @@ async function datos(criterio) {
     }
 }
 
-datos("Dueñas Santander, Rodrigo").catch((error) => console.error(error));
+datos("Castillo Espinoza, Eduardo").catch((error) => console.error(error));
 
 document.querySelectorAll("select")[0].addEventListener("change", (event) => {
     tabla.innerHTML = " ";
